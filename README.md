@@ -100,6 +100,10 @@
   INSERT INTO  flight_details(departure_date, price, available_seats, flight_id)
 	    VALUES ('2021-1-22', 46558, 109, 1), ('2021-1-22', 42500, 103, 2), ('2021-1-22', 47899, 65, 3);
 ```
+## Entity-Relational Diagram
+I've created the diagram to make easier the process of visualising the database.
+![ERD](https://user-images.githubusercontent.com/71120576/110829616-87e30300-82c2-11eb-81b2-478445e23271.jpg)
+
 ## Java
   All you need to do is to change value of _final variables_ named ```USERNAME, PASSWORD, URL``` in class ```PostgreSQL.java``` to valid one.  
   
@@ -113,5 +117,6 @@
         </dependency>
     </dependencies>
   ```
+  
 ## Author
   This project was made by _Zhomartkhan Talgatuly_, group _SE-2018_.
