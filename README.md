@@ -1,4 +1,5 @@
-# AviTraveller — Airline Reservation System
+# AviTraveller — Airline Reservation System. Endterm project for OOP (Java).
+
 ## Configuring Database
   This CLI application uses **PostgreSQL** as a database. Just copy & paste this code into your pgAdmin's query tool:
   ```postgresql
@@ -97,4 +98,17 @@
 	    VALUES ('2021-1-22', 46558, 109, 1), ('2021-1-22', 42500, 103, 2), ('2021-1-22', 47899, 65, 3);
 ```
 ## Java
-  All you need to do is to change value of _final variables_ named **USERNAME**, **PASSWORD**, **URL** in class **PostgreSQL.java** to valid one.  
+  All you need to do is to change value of _final variables_ named ```USERNAME, PASSWORD, URL``` in class ```PostgreSQL.java``` to valid one.  
+  
+  Program uses external library JDBC connected by ```Maven framework``` as a dependency.
+  ```
+  <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.19.jre7</version>
+        </dependency>
+    </dependencies>
+  ```
+## Author
+  This project was made by _Zhomartkhan Talgatuly_, group _SE-2018_.
