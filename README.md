@@ -120,7 +120,7 @@ I've created the diagram to make easier the process of visualising the database.
   
 ## Design patterns
   During the OOP (Java) course, I've discovered design patterns and tried to apply them in the project.
-  	* 
+  ```Singleton```, ```Builder``` .
 
 ## Author
   This project was made by _Zhomartkhan Talgatuly_, group _SE-2018_.
