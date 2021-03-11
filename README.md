@@ -108,7 +108,7 @@ I've created the diagram to make easier the process of visualising the database.
 ## Java
   All you need to do is to change value of _constant variables_ named ```USERNAME, PASSWORD, URL``` in class ```PostgreSQL.java``` to valid one.  
   
-  Application uses JDBC of ver. 42.2.19.jre7, connected through ```Maven framework``` as a dependency.
+  Application uses JDBC of ver. 42.2.19.jre7, connected through ```Maven framework``` as a dependency in ```pom.xml``` file. 
   ```
   <dependencies>
         <dependency>
