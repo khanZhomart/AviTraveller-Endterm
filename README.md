@@ -1,9 +1,9 @@
 # AviTraveller — Airline Reservation System. Endterm project for OOP (Java).
 
-## Review code.
+## Review code
   In order to make code-reviewing faster and more convinient, just add ```1s``` between ```github``` and ```.com```. As the result, you will see the online version of Visual Studio Code.
 
-## Configuring Database
+## Preparing database
   This CLI application uses **PostgreSQL** as a database. Just copy & paste this code into your pgAdmin's query tool:
   ```postgresql
   CREATE TABLE passenger (
