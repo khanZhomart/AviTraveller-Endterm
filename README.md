@@ -102,7 +102,7 @@
 ```
 ## Entity-Relational Diagram
 I've created the diagram to make easier the process of visualising the database.
-![ERD](https://user-images.githubusercontent.com/71120576/110829616-87e30300-82c2-11eb-81b2-478445e23271.jpg)
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/71120576/110830074-08a1ff00-82c3-11eb-99b3-5c938ae57e7b.png)
 
 ## Java
   All you need to do is to change value of _final variables_ named ```USERNAME, PASSWORD, URL``` in class ```PostgreSQL.java``` to valid one.  
