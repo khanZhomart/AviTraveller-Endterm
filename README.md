@@ -1,5 +1,8 @@
 # AviTraveller — Airline Reservation System. Endterm project for OOP (Java).
 
+## Review code.
+  In order to make code-reviewing faster and more convinient, just add ```1s``` between ```github``` and ```.com```. As the result, you will see the online version of Visual Studio Code.
+
 ## Configuring Database
   This CLI application uses **PostgreSQL** as a database. Just copy & paste this code into your pgAdmin's query tool:
   ```postgresql
@@ -100,7 +103,7 @@
 ## Java
   All you need to do is to change value of _final variables_ named ```USERNAME, PASSWORD, URL``` in class ```PostgreSQL.java``` to valid one.  
   
-  Program uses external library JDBC connected by ```Maven framework``` as a dependency.
+  Program uses JDBC of ver. 42.2.19.jre7, connected through ```Maven framework``` as a dependency.
   ```
   <dependencies>
         <dependency>
