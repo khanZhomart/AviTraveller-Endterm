@@ -3,6 +3,7 @@
 ## Review code
   In order to make code-reviewing faster and more convenient, just add ```1s``` between ```github``` and ```.com```. 
 As the result, you will see the online version of Visual Studio Code with application's files. 
+```https://github1s.com/khanZhomart/AviTraveller-Endterm```
 
 ## Preparing database
   This CLI application uses **PostgreSQL** as a database. Just copy & paste this code into your pgAdmin's query tool:
@@ -84,7 +85,7 @@ As the result, you will see the online version of Visual Studio Code with applic
     FOREIGN KEY (flight_id) REFERENCES flight_details(id)
   );
 ```
-  Here is some mock data to test out the program:
+  Here is some mock data to test out the Application's work:
   ```postgresql
   INSERT INTO city(code, name)
       VALUES ('NQZ', 'Nur-Sultan'), 
