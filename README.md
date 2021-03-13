@@ -2,7 +2,7 @@
 
 ## Review code
   In order to make code-reviewing faster and more convenient, just add ```1s``` between ```github``` and ```.com```. 
-As the result, you will see the online version of Visual Studio Code with application's files. 
+As the result, you will see the online version of ```Visual Studio Code``` with application's files. 
 ```https://github1s.com/khanZhomart/AviTraveller-Endterm```
 
 ## Preparing database
